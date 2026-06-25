@@ -70,7 +70,8 @@ Created an SNS Topic and subscribed an email address for alert notifications.
 
 **Screenshot**
 
-![SNS Subscription](screenshots/subscription_confirm.png)
+<img width="1138" height="185" alt="Subscription_confirm" src="https://github.com/user-attachments/assets/e417a2c3-0412-48ab-97a1-99c86f06c274" />
+
 
 ---
 
