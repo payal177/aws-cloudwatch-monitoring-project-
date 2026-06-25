@@ -1,0 +1,120 @@
+🚀 GitHub Project Upload Steps
+Step 1: Create a New Repository on GitHub
+
+Go to GitHub → New Repository
+
+Example:
+
+aws-cloudwatch-monitoring-project
+
+Select:
+
+Public
+Don't initialize with README
+
+Click Create Repository
+
+Step 2: Open Terminal in Project Folder
+cd C:\Users\PAYAL\aws-cloudwatch-monitoring-project
+
+Verify files:
+
+dir
+Step 3: Initialize Git Repository
+git init
+What it does?
+
+Creates a local Git repository in your project folder.
+
+Step 4: Check Status
+git status
+What it does?
+
+Shows:
+
+New files
+Modified files
+Files ready for commit
+Step 5: Add All Files
+git add .
+What it does?
+
+Stages all project files for commit.
+
+Step 6: Create First Commit
+git commit -m "Initial commit"
+What it does?
+
+Creates a snapshot of your project.
+
+Step 7: Connect GitHub Repository
+git remote add origin https://github.com/yourusername/repository-name.git
+
+Example:
+
+git remote add origin https://github.com/payal177/aws-cloudwatch-monitoring-project.git
+Verify
+git remote -v
+Step 8: Push Code to GitHub
+git branch -M main
+git push -u origin main
+What it does?
+
+Uploads your project to GitHub.
+
+🔄 Future Changes
+
+After adding screenshots, README updates, or new files:
+
+Check Changes
+git status
+Stage Changes
+git add .
+Commit Changes
+git commit -m "Added CloudWatch dashboard screenshots"
+Push Changes
+git push
+📸 Add Screenshots
+
+Create folder:
+
+screenshots
+
+Example:
+
+screenshots/
+├── ec2-instance.png
+├── cloudwatch-metrics.png
+├── dashboard.png
+├── sns-alert-email.png
+
+Then:
+
+git add .
+git commit -m "Added project screenshots"
+git push
+🛠 Useful Commands
+See Commit History
+git log --oneline
+Check Remote Repository
+git remote -v
+Check Current Branch
+git branch
+Pull Latest Changes
+git pull
+📂 Typical Project Structure
+aws-cloudwatch-monitoring-project/
+│
+├── README.md
+├── screenshots/
+│   ├── ec2-instance.png
+│   ├── cwagent-metrics.png
+│   ├── dashboard.png
+│   └── sns-alert.png
+│
+└── cloudwatch-agent-config.json
+⭐ Workflow You'll Use Most Often
+git status
+git add .
+git commit -m "Describe changes"
+git push
