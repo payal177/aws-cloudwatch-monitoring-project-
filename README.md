@@ -24,7 +24,7 @@ Created an Amazon EC2 instance to serve as the monitoring target.
 
 **Screenshot**
 
-![EC2 Instance](screenshots/EC2-instance.png)
+![EC2_Instance](screenshots/EC2-instance.png)
 
 ---
 
